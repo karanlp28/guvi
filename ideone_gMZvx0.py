@@ -1,6 +1,6 @@
 m=input()
 try:
 	a=float(m)
-	print("yes")
+	print("Yes")
 except ValueError:
-	print("no")
+	print("No")
