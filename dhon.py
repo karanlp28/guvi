@@ -1,12 +1,12 @@
-a=input()
-flagg=0
-msd=["d","h","o","n","i"]
-for x in range(len(a)):
-  if(x not in msd or msd.count(a[x])!=a.count(a[x])):
-    flagg=1
+q=input()
+flag=0
+ms=["d","h","o","n","i"]
+for i in range(len(q)):
+  if(i not in ms or ms.count(q[i])!=q.count(q[i])):
+    flag=1
   else:
-    flagg=0
-if flagg==0:
+    flag=0
+if flag==0:
   print("yes")
 else:
   print("no")
